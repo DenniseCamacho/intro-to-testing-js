@@ -1,8 +1,12 @@
 // Unit tests for the helloWorld function
 describe("sayHello", function() {
-    it("should be a defined function")
+    it("should be a defined function", function() {
+        expect(typeof sayHello).toBe('function');
+    });
 });
 //^^^step 1, exercise #1;
+
+
 describe('helloWorld', function() {
     it('should be a defined function', function() {
       expect(typeof helloWorld).toBe('function');
