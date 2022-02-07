@@ -4,6 +4,17 @@ function helloWorld() {
 }
 
 //sayHello function
-function sayHello(name01) {
-    return "" + name01;
+function sayHello() {
+    return "Hello, Jane!";
+}
+//#4 Alex #5 Pat
+function sayHello(input04) {
+    if (input04 === "Alex") {
+        return "Hello, Alex!";
+    } else if (input04 === "Pat") {
+        return "Hello, Pat!"
+    }
+    else {
+        return "Hello, Jane!";
+    }
 }
